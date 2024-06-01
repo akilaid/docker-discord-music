@@ -278,13 +278,13 @@ async def clear(ctx):
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Streaming(name='නෝටි දර්ශන', url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'))
+    await bot.change_presence(activity=discord.Streaming(name='Music to you', url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'))
     print('Bot is ready.')
 
 @bot.event
 async def on_command_error(ctx, error):
     if isinstance(error, commands.MissingRole):
-        await ctx.send("You do not have the required role to use this command.", delete_after=5)
+        await ctx.send("You do not have the required role to use this command. Ask for ezAdmin from your Admin", delete_after=5)
     else:
         await ctx.send(f"An error occurred: {error}", delete_after=10)
         
