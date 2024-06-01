@@ -20,9 +20,10 @@ This repository contains the Dockerfile and necessary configuration files to bui
     ```
     https://discord.com/developers/applications
     ```
-3. Invite fresh bot to your Discord server [Invite Link](https://discord.com/oauth2/authorize?client_id=<your-bot-client-ID>&scope=bot&permissions=36703232)
+3. Turn on 'MESSAGE CONTENT INTENT' under Privileged Gateway Intents Section of bot. Required for your bot to receive message content in most messages.
+4. Invite fresh bot to your Discord server [Invite Link](https://discord.com/oauth2/authorize?client_id=<your-bot-client-ID>&scope=bot&permissions=3222592)
     ```
-    https://discord.com/oauth2/authorize?client_id=<your-bot-client-ID>&scope=bot&permissions=36703232
+    https://discord.com/oauth2/authorize?client_id=<your-bot-client-ID>&scope=bot&permissions=3222592
     ```
 
 
