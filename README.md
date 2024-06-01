@@ -41,6 +41,9 @@ This repository contains the Dockerfile and necessary configuration files to bui
 | !skip   | Skip to the next song |
 | !stop   | Stop playing music |
 
+Also users can use UI buttons to control media while a song is playing.
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
