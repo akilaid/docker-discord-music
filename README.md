@@ -41,6 +41,7 @@ This repository contains the Dockerfile and necessary configuration files to bui
 | !pause  | Pause the currently playing song |
 | !skip   | Skip to the next song |
 | !stop   | Stop playing music |
+| !clear   | Clear queued songs |
 
 Also users can use UI buttons to control media while a song is playing.
 
